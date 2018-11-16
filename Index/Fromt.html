@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/Index.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="wapper">
+        <div id="Head">
+                <a href="http://caodang.tdtu.edu.vn/"><img src="../Image/BackGround/TĐT_logo.png"width="180px" height="auto"></a></p>
+                <a href="Login.html">Đăng Nhập</a>
+                <a href="Fromt.html">Đăng Kí</a>
+                <div id="menu">
+                    <ul class="list_menu">
+                        <li><a href="Giới Thiệu.html">Giới Thiệu</a></li>
+                        <li><a href="Tin Tức.html">Tin Tức</a></li>
+                        <li><a href="Đào Tạo.html">Đào Tạo</a></li>
+                        <li><a href="Sinh Viên - HS.html">Sinh Viên</a></li>
+                        <li><a href="Tuyển Sinh.html">Tuyển Sinh</a></li>
+                        <li><a href="Hợp Tác.html">Việc Làm</a></li>
+                    </ul>
+                </div>     
+        </div><hr/>
+        <div id="Content">
+            <h1>Đăng Kí</h1>
+            <!-- Fomt đăng kí -->
+            <form>
+                <label for="Name">Họ và Tên</label><br/><input type="text" id="Name" name="Name" placeholder="Họ và tên"/><br/>
+                <label for="Pass">Mật Khẩu</label><br/><input type="password" name="Password" id="Pass_again" placeholder="Mật khẩu"/><br/>
+                <label for="Pass_again">Nhập Lại Mật Khẩu</label><br/><input type="password" name="Pass_again" id="Pass_again"/><br/>
+                <label for="">Giới Tính</label><br/>
+                <input type="radio" name="Gender"  value="male" id="male"/>Nam
+                <input type="radio" name="Gender"  value="female" id="female"/>Nữ
+            </form>
+                <!-- Lựa chọn ngày tháng năm sinh -->
+                Ngày Sinh<br/>
+                <select aria-label="Ngày" name="birthday_day" id="day" title="Ngày" class="_5dba">
+                    <option value="0">Ngày</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select aria-label="Tháng" name="junary" id="moth" title="Tháng" class="_6dba">
+                        <option value="0">Tháng</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="12">12</option>
+                </select>
+                <select aria-label="Năm" name="monthhday_day" id="year" title="năm" class="_6dba">
+                        <option value="0">Năm</option>
+                </select><p/>  
+                <form>
+                    <input type="submit" value="Đăng Kí"/>
+                </form>
+        </div><hr/>
+        <div id="Footer">
+            © Copyright <a href=" https://www.facebook.com/">facebook.com</a>
+        </div>
+    </div>
+</body>
+</html>
